@@ -1,3 +1,3 @@
 -- COMANDO PARA CRIAÇÃO DE UM BANCO DE DADOS
 
-create database biblioteca;
+create database if not exists biblioteca;
