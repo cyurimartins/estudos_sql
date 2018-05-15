@@ -1,4 +1,4 @@
--- CRIANDO UMA TABELA PESSOA
+-- CRIANDO UMA TABELA PESSOA SE NÃO EXISTIR NO BANCO
 
 create table if not exists Pessoa (
 	  codigo integer,
