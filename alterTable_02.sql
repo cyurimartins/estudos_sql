@@ -1,3 +1,3 @@
 alter table cliente
   change nome 
-  name(80);
+  name varchar(80);
