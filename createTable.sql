@@ -5,6 +5,7 @@ create table if not exists Pessoa (
     	nome varchar(60) not null default "SEM NOME", -- Atribuindo um valor default ao campo nome
     	cpf varchar(14),
     	data_nascimento date,
-    	data_cadastro date
+    	data_cadastro date,
+	primary key (codigo) -- Seleciona o campo codigo como chave primaria da tabela
     
     );
