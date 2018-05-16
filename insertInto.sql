@@ -9,3 +9,9 @@ VALUES [LISTA DE VALORES];
 
 */
 
+insert into PESSOA ( nome, cpf, data_nascimento, data_cadastro ) 
+values ('JOSÉ', '100.555.111-12', '1979-03-03', '2017-01-01');
+
+INSERT INTO PESSOA (CODIGO, NOME, CPF)
+VALUES ('30', 'VADER', '999.999.111-25');
+
