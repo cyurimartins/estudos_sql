@@ -4,4 +4,5 @@ alter table cliente
   add column email varchar(20);   -- ADICIONANDO A COLUNA EMAIL 
   drop telefone; --apagando a coluna telefone da tabela
 
-
+ALTER TABLE FORNECEDOR
+	ADD COLUMN RAZAO_SOCIAL VARCHAR (80);
