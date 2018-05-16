@@ -9,3 +9,12 @@ create table if not exists Pessoa (
 	primary key (codigo) -- Seleciona o campo codigo como chave primaria da tabela
     
     );
+    
+    
+    
+CREATE TABLE IF NOT EXISTS CLIENTE(
+	ID INTEGER NOT NULL AUTO_INCREMENT,
+	CLIENTE VARCHAR (30),
+	TEL1 VARCHAR(11), 
+	PRIMARY KEY (ID)
+);
